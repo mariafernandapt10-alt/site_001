@@ -1,0 +1,62 @@
+* {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+span{
+    background-color: #ed0fe2;
+}
+ul{
+    list-style-type:upper-roman;
+    color: white;
+}
+
+p::first-letter{
+    font-size: 200%;
+    font-weight: bold;
+}
+
+.ribbon {
+  background-color: #5bc8f7;
+}
+
+.ribbon::before {
+  content: "Livro: O Grande Gatsby";
+  background-color: #0fedd7;
+  border-color: rgb(6, 138, 194);
+  border-style:solid;
+}
+-
+::spelling-error {
+  text-decoration: wavy red underline;
+}
+
+:lang(en) > q{
+    color: red;
+    background-color: blue;
+}
+
+textarea:blank{
+    border: 2px solid red;
+}
+
+div:read-write{
+    background-color: oklch(62.159% 0.14219 147.27);
+    color: #3909ba;
+    border-radius: 10px;
+}
+
+div:read-only{
+    background-color: white;
+    color: purple;
+    border-radius: 10px;
+}
+
+* #green{
+    color: green;
+}
+
+h1{
+ text-shadow: 4px 4px 8px white;
+}
